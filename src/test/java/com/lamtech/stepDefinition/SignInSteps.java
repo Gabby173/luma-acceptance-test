@@ -1,5 +1,6 @@
 package com.lamtech.stepDefinition;
 
+import com.lamtech.pageObject.SignInPagePO;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -30,6 +31,9 @@ public class SignInSteps {
     @And("^User Enter\"([^\"]*)\"in Sign In Page$")
     public void userEnterInSignInPage(String EmailAddress) throws Throwable {
         // driver.findElement(By.id("email")).sendKeys(EmailAddress);
+        //SignInPagePO signInPagePO = new SignInPagePO(driver);
+
+
     }
 
     @And("^User Enter their \"([^\"]*)\"$")
